@@ -1,0 +1,26 @@
+.games {
+  padding: 20px;
+}
+
+ .tabs ul {
+  display: inline-flex;
+  padding: 10px 0;
+  color: #aaaaaa;
+  
+  & li {
+    padding-right: 10px;
+  }
+
+}
+
+.tabs ul li:first-child {
+  border-top-left-radius: 3px;
+}
+
+ .tabs ul li:last-child {
+  border-top-right-radius: 3px;
+}
+
+ .tabs ul li.active {
+  color: #5c629e;
+}

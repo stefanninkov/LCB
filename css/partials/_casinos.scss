@@ -1,0 +1,58 @@
+.casinos {
+  padding: 20px;
+}
+
+.tabs {
+  display: inline-flex;
+  padding: 10px 0;
+  
+  & a {
+    color: #000000;
+  }
+
+  & span {
+    padding: 10px 10px 10px 0;
+    color: #aaaaaa;
+}
+}
+
+.board {
+  display: grid;
+  background-color: #f3f3f3;
+  border: 1px solid #aaaaaa;
+  height: 190px;
+  width: 100%;
+  grid-template-rows: 33.3% 33.3% 33.3%;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+  padding: 10px 20px;
+}
+
+.box {
+  display: flex;
+
+  &_img {
+    width: 60px;
+  }
+
+  &_span {
+    margin: 15px auto;
+    color: #aaaaaa;
+    padding-left: 5px;
+    text-align: center;
+  }
+}
+
+.hide {
+  display: none;
+}
+
+#resultsel2,
+#resultsel3,
+#resultsel4,
+#resultsel5 {
+  display: none;
+}
+
+.sel_active {
+  color: #5c629e !important;
+}

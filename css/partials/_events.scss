@@ -1,0 +1,54 @@
+.events {
+  padding: 20px;
+}
+
+.big_card {
+  position: relative;
+  height: 280px;
+  background-image: url("../img/bigcard.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 20px;
+
+  &:nth-child(2){
+    display: none;
+  }
+}
+
+.card_text {
+  color: #f7f7f7;
+  bottom: 0;
+  position: absolute;
+  line-height: 1.5;
+  z-index: 10;
+  padding: 10px;
+
+}
+
+.small_card {
+    position: relative;
+    height: 100px;
+    margin-top: 20px;
+    display: flex;
+
+    & h3 {
+        color: #000000;
+        font-weight: bold;
+        font-size: 15px;
+        padding: 10px 0 5px 0;
+    }
+
+    & p {
+      display: none;
+    }
+
+    & span {
+        font-size: 10px;
+    }
+}
+
+.card_img {
+    margin-right: 10px;
+    width: 135px;
+}

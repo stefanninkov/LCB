@@ -1,0 +1,498 @@
+@media only screen and (max-width: 410px) {
+  .text-block {
+    line-height: 1.1 !important;
+  }
+  .header .menu-icon {
+    padding: 0 40px;
+    margin-bottom: 10px;
+  }
+
+  .jackpots_box {
+    height: auto;
+    flex-wrap: wrap;
+  }
+
+  .guides_img {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+
+  .playing_raw {
+    height: auto;
+    justify-content: unset;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .text-block {
+    line-height: 1.2;
+  }
+  .board {
+    height: 320px;
+  }
+
+  .form_head {
+    width: 80%;
+  }
+
+  .box {
+    flex-wrap: wrap;
+    &_span {
+      text-align: left;
+    }
+  }
+
+  .dealers_box ul li {
+    width: unset;
+  }
+
+  .dealers_box ul li:nth-child(2),
+  .dealers_box ul li:nth-child(3),
+  .dealers_right span:nth-child(1) {
+    display: none;
+  }
+
+  .life_cards {
+    grid-template-columns: 1fr;
+  }
+
+  .form button {
+    margin-top: 10px;
+  }
+}
+
+@media only screen and (max-width: 590px) {
+  .guides_img {
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+
+  .guides_card {
+    padding: 10px;
+  }
+
+  .box_span {
+    margin: 0 auto;
+    padding-left: 0;
+  }
+
+  .jackpots_text ul {
+    padding-top: 10px;
+  }
+
+  .form .disclaimer {
+    padding-top: 10px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .board {
+    grid-template-columns: 25% 25% 25% 25%;
+  }
+
+  .small_cards {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .small_card {
+    width: 50%;
+  }
+
+  .hide {
+    display: flex;
+  }
+
+  .footer_cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+
+  .guides {
+    display: none;
+  }
+
+  .guides_desktop {
+    display: unset;
+  }
+
+  .big_cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+  }
+  .big_card:nth-child(2) {
+    display: block;
+  }
+
+  .item_img {
+    width: 345px;
+    float: left;
+    margin-right: 20px;
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1320px) {
+  .dealers_box ul {
+    justify-content: space-around;
+  }
+  .dealers_box ul li button {
+    width: 95px;
+  }
+  .dealers_box ul li:nth-child(2) {
+    display: none;
+  }
+
+  .dealers_box ul li:nth-child(3) {
+    margin-left: 100px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .content {
+    display: flex;
+  }
+
+  .form_head {
+    width: 80%;
+  }
+  .form button {
+    margin-top: 10px;
+  }
+
+  .form_inline {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 0 15px;
+    grid-gap: 10px;
+
+    & input {
+      margin: 0;
+      width: 100%;
+    }
+  }
+
+  #left {
+    width: 65%;
+  }
+
+  #right {
+    width: 35%;
+  }
+  .slider {
+    display: none;
+  }
+  .slider_desktop {
+    display: grid;
+  }
+
+  .guides_card {
+    width: auto;
+    height: 260px;
+  }
+
+  .mobile_menu {
+    display: none;
+  }
+
+  .jackpots_text ul {
+    padding-top: 10px;
+  }
+
+  .small_card {
+    width: 100%;
+    height: 185px;
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    grid-gap: 20px;
+
+    & img {
+      width: 250px;
+    }
+
+    & p {
+      display: flex;
+    }
+
+    &:nth-child(3) {
+      display: none;
+    }
+    &:nth-child(4) {
+      display: none;
+    }
+  }
+
+  .life_card {
+    padding-bottom: 15px;
+  }
+
+  .social,
+  .footer_menu,
+  .about {
+    display: none;
+  }
+
+  .desktop_footer {
+    display: grid;
+    grid-template-columns: 35% 65%;
+    grid-template-rows: 1fr;
+    padding: 30px 0;
+  }
+
+  .foot_left {
+    width: 100%;
+
+    & img {
+      height: 60px;
+    }
+    & h2 {
+      color: #efefef8e;
+      font-size: 20px;
+      padding: 20px 0;
+    }
+    & p {
+      color: #aaaaaa60;
+      width: 80%;
+      padding-bottom: 10px;
+    }
+
+    & button {
+      background: none;
+      text-decoration: underline;
+      border: none;
+      color: #aaaaaa60;
+    }
+  }
+
+  .footer_cards {
+    padding-top: 40px;
+  }
+
+  .foot_right {
+    width: 100%;
+
+    .foot_menu {
+      display: flex;
+      justify-content: space-between;
+      text-align: center;
+      color: #efefef8e;
+      font-size: 12px;
+      font-weight: 500;
+      width: 100%;
+      margin: 0 auto;
+      flex-wrap: wrap;
+      padding: 25px 0;
+    }
+  }
+  .foot_search {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+
+  .use_links {
+    h2 {
+      color: #efefef8e;
+      font-size: 20px;
+      padding: 15px 0;
+    }
+    & ul {
+      color: #aaaaaa60;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      height: 175px;
+      line-height: 1.5;
+
+      & li::before {
+        content: "- ";
+      }
+    }
+  }
+
+  .foot_social {
+    color: #aaaaaa60;
+    text-align: left;
+
+    & h2 {
+      font-size: 20px;
+      margin: 10px 0;
+      color: #efefef8e;
+      font-weight: normal;
+    }
+    & li {
+      display: inline-flex;
+      justify-content: center;
+      background-image: url(../img/back_icon.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 30px;
+      height: 30px;
+      & img {
+        object-fit: contain;
+      }
+    }
+  }
+
+  .search_form input[type="text"] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #191919;
+  }
+  .search_form button {
+    width: 18%;
+    padding: 10px;
+    background: #777777;
+    color: #efefef8e;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+    margin-left: 5px;
+  }
+
+  .copy {
+    text-align: left;
+  }
+
+  .icons {
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    margin: 0;
+  }
+
+  .logo_img {
+    display: block;
+  }
+  .header_top {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 100%;
+  }
+  .top_left {
+    position: relative;
+    display: flex;
+  }
+
+  .main_menu {
+    display: grid;
+    grid-template-columns: 90% 10%;
+    grid-template-rows: 100%;
+    padding: 0 20px;
+    background-color: #2a2a2a;
+    position: relative;
+    color: #f7f7f7;
+    & ul {
+      display: flex;
+      font-weight: 500;
+      text-transform: uppercase;
+      justify-content: space-around;
+      & li {
+        padding: 20px 10px 15px 10px;
+
+        &:hover {
+          background-color: #f08946;
+          color: #f7f7f7;
+        }
+
+        & a {
+          color: #f7f7f7;
+        }
+      }
+    }
+    & button {
+      width: 60px;
+      padding: 10px;
+      background: #f08946;
+      color: #f7f7f7;
+      font-size: 17px;
+      border: none;
+      cursor: pointer;
+      position: absolute;
+      right: 20px;
+      top: 0px;
+      height: 100%;
+    }
+  }
+}
+
+@media only screen and (min-width: 1800px) {
+  .wrapper {
+    background-image: url("../img/layer.png");
+    background-repeat: no-repeat;
+    background-position-y: 400px;
+    padding: 0 320px;
+    position: relative;
+  }
+
+  .footer,
+  .header_top,
+  .main_menu {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    padding: 0 340px;
+  }
+
+  .header {
+    height: 130px;
+    padding-top: 30px;
+  }
+
+  .slider_desktop {
+    padding-top: 80px;
+  }
+
+  .main_menu button,
+  .icons {
+    right: 340px;
+  }
+
+  .box_span {
+    margin: 5px auto;
+  }
+
+  .playing_raw {
+    height: 95px;
+  }
+
+  .raw_box {
+    width: 100%;
+    &-third {
+      padding-top: 15px;
+      padding-right: 5px;
+    }
+  }
+  .form .disclaimer {
+    padding-top: 10px;
+  }
+  .content_news {
+    padding-top: 260px;
+  }
+  .jackpots_text {
+    padding: 0;
+  }
+  .dealers_box ul {
+    padding: 20px 5px;
+  }
+  .dealers_box ul li {
+    width: 27%;
+  }
+  .banner {
+    position: absolute !important;
+    left: 0;
+    width: 100%;
+    margin-top: 58px;
+
+    &_text {
+      padding-left: 390px !important;
+    }
+  }
+}

@@ -1,0 +1,105 @@
+.guides {
+  height: 400px;
+  padding: 20px 0;
+
+  & h1 {
+    margin-left: 20px;
+  }
+
+  &_slider-card {
+    display: flex;
+    justify-content: center;
+  }
+
+  &_card {
+    width: 260px;
+    height: 270px;
+    position: relative;
+    margin: 20px;
+    text-align: center;
+    border: 1px solid black;
+    background-color: #f3f3f3;
+    padding: 20px;
+  }
+
+  &_img {
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+
+  &_btn {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 35px;
+    background-color: #f08946;
+    color: #f7f7f7;
+    border: none;
+  }
+}
+
+.glider-dot {
+  width: 10px !important;
+  height: 10px !important;
+  border: 2px solid #f08946 !important;
+  border-radius: 50% !important;
+  background: rgba(0, 0, 0, 0) !important;
+  margin: 0 4px !important;
+  cursor: pointer !important;
+}
+
+.glider-dot.active {
+  background: #f08946 !important;
+}
+
+.guides_slider.glider::-webkit-scrollbar {
+  display: none;
+}
+
+.guides_desktop {
+  display: none;
+  position: relative;
+
+  & h1 {
+    padding: 10px 20px;
+    font-size: 25px;
+  }
+}
+
+.desktop_slide {
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  display: grid;
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+.slide_card {
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+  border: 1px solid black;
+  background-color: #f3f3f3;
+  padding: 10px;
+  height: 270px;
+  max-width: 260px;
+}
+
+.dots {
+  display: flex;
+  justify-content: center;
+
+  & span {
+    width: 10px;
+    height: 10px;
+    border: 2px solid #f08946;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 3px;
+
+    &:active {
+      background-color: #f08946;
+    }
+  }
+}
